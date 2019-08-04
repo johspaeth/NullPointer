@@ -8,5 +8,13 @@ public class Main {
 
     Unchanged unchanged = new Unchanged();
     unchanged.doOperation();
+    
+    Object o = null;
+    Object t = foo(o);
+    t.notify();
+  }
+
+  public static Object foo(Object o){
+  	return o;
   }
 }
