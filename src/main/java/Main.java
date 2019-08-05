@@ -11,5 +11,3 @@ public class Main {
     unchanged.doOperation();
   }
 }
-
-Some dara
