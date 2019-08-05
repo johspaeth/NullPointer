@@ -16,12 +16,14 @@ pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
 pom.xml.next
+pom.xml.next
 release.properties
 
 ##########################
 ## IntelliJ
 ##########################
 *.iml
+pom.xml.next
 .idea/
 *.ipr
 *.iws
