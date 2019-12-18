@@ -27,8 +27,8 @@
 			            <goals>
 			              <goal>check</goal>
 			            </goals>
-		                <configuration>
-		                	<javaRuntime>/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/rt.jar</javaRuntime>
+		                <configuration>                	
+		                		<javaRuntime>/var/jenkins_home/tools/hudson.model.JDK/Oracle_JDK_8/jre/lib/rt.jar</javaRuntime>
 		                </configuration>
 		          	</execution>
 	        	</executions>
