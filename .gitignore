@@ -31,6 +31,9 @@ out/
 ##########################
 ## Eclipse
 ##########################
+##########################
+## OS X
+#########################
 .metadata
 .classpath
 .project
@@ -44,18 +47,12 @@ tmp/
 local.properties
 .loadpath
 
-##########################
-## NetBeans
-##########################
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-nbactions.xml
-nb-configuration.xml
+
 
 ##########################
 ## OS X
 ##########################
+##########################
+## OS X
+#########################
 .DS_Store
