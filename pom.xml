@@ -20,9 +20,18 @@
                 <groupId>de.codeshield</groupId>
                 <artifactId>maven-frontend</artifactId>
                 <version>1.0-SNAPSHOT</version>
-                <configuration>
-                	<javaRuntime>/var/jenkins_home/tools/hudson.model.JDK/Oracle_JDK_8/jre/lib/rt.jar</javaRuntime>
-                </configuration>
+                <executions>
+		          	<execution>
+			            <id>codeshield-check</id>
+			            <phase>verify</phase>
+			            <goals>
+			              <goal>check</goal>
+			            </goals>
+		                <configuration>
+		                	<javaRuntime>/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/rt.jar</javaRuntime>
+		                </configuration>
+		          	</execution>
+	        	</executions>
             </plugin>
 		</plugins>
 	</build>
