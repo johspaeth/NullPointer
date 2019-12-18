@@ -17,7 +17,7 @@ pipeline {
      }
      post {
         always {
-            recordIssues enabledForFailure: true, tool: sARIFParser(pattern: '**/target/codeshield-result-sarif.json')
+            recordIssues enabledForFailure: true, tool: codeShield(pattern: '**/target/codeshield-result-sarif.json')
         }
     }
 }
