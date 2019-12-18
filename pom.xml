@@ -16,6 +16,14 @@
 					<target>${maven.compiler.target}</target>
 				</configuration>
 			</plugin>
+			 <plugin>
+                <groupId>de.codeshield</groupId>
+                <artifactId>maven-frontend</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <configuration>
+                	<javaRuntime>/var/jenkins_home/tools/hudson.model.JDK/Oracle_JDK_8/jre/lib/rt.jar</javaRuntime>
+                </configuration>
+            </plugin>
 		</plugins>
 	</build>
 
